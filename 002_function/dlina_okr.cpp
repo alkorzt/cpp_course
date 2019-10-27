@@ -4,7 +4,7 @@
 double dlina_okr(double radius);
 
 int main(){
-    double radius{.0};
+    double radius{};
     std::cout << "Введите радиус окружности: ";
     std::cin >> radius;
 

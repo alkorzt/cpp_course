@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main(){
-    int number{0};
+    int number{};
 
     std::cout << "Введите число: ";
     std::cin >> number;

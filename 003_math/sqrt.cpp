@@ -2,7 +2,7 @@
 #include <cmath>
 
 int main(){
-  int area{0};
+  int area{};
   std::cout << "Введите площадь квадрата: ";
   std::cin >> area;
 

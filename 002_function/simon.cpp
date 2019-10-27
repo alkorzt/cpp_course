@@ -3,7 +3,7 @@
 void simon(int count);
 
 int main(){
-  int count{0};
+  int count{};
   std::cout << "Введите целое число : ";
   std::cin >> count;
 
