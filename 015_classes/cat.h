@@ -1,10 +1,8 @@
-typedef unsigned int uint;
+#include "animal.h"
 
-class Cat {
+class Cat : public Animal {
 public:
     Cat();
     ~Cat();
-    void voice();
-private:
-    uint paws = 4;
+    void voice() override;
 };

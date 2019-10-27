@@ -9,6 +9,6 @@ Cat::~Cat(){
     std::cout << "Виртуальная кошка исчезает" << std::endl;
 }
 
-void Cat::voice(){
+void Cat::voice() {
     std::cout << "Мяу!" << std::endl;
 }

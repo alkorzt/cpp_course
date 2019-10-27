@@ -1,10 +1,8 @@
-typedef unsigned int uint;
+#include "animal.h"
 
-class Dog{
+class Dog : public Animal{
 public:
   Dog();
   ~Dog();
   void voice();
-private:
-  uint paws = 4;
 };

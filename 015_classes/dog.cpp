@@ -9,6 +9,6 @@ Dog::~Dog(){
     std::cout << "Виртуальная собака исчезает" << std::endl;
 }
 
-void Dog::voice(){
+void Dog::voice() {
   std::cout << "Гав!" << std::endl;
 }
